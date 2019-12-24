@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/reset.css"> 
+	<!-- CSS reset -->
+	<link rel="stylesheet" href="css/project.css"> 
+	<link rel="stylesheet" href="css/rwd.css"> 
+	<!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<script src="jquery-3.4.1.min.js"></script>
+  	
+	<title>Vertical Fixed Navigation</title>
+</head>
+<body>
+	
+	<header>
+		
+		<a href="index.html" style="text-decoration:none;"><h1>Chia Ying</h1></a>
+<!--		<div class="menu"><a href="#"><span></span></a></div>-->
+		<nav>
+			<ul>
+				<li><a href="index.html" class="current">WORK</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="images/chiayingliao_cv.pdf" target="_blank">RESUME</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<div id="cd-vertical-nav">
+		<ul>
+			<li>
+				<a href="#section1" data-number="1">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Overview</span>
+				</a>
+			</li>
+			<li>
+				<a href="#section2" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label">User Research</span>
+				</a>
+			</li>
+			<li>
+				<a href="#section3" data-number="3">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Insights</span>
+				</a>
+			</li>
+			<li>
+				<a href="#section4" data-number="4">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Goals</span>
+				</a>
+			</li>
+			<li>
+				<a href="#section5" data-number="5">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Information Architecture</span>
+				</a>
+			</li>
+			<li>
+				<a href="#section6" data-number="6">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Wireframe</span>
+				</a>
+			</li>
+			<li>
+				<a href="#section7" data-number="7">
+					<span class="cd-dot"></span>
+					<span class="cd-label">High-fi Design</span>
+				</a>
+			</li>
+			<li>
+				<a href="#section8" data-number="8">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Interactive Map</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+<!--	<a class="cd-nav-trigger cd-img-replace">Open navigation<span></span></a>-->
+
+	<section class="banner">
+		<div class="cover" id="smartfactory">
+			<h1 class="title">Pioneer Machinery<br>Smart Factory Program</h1>
+			<h3 class="sub-title">Modernizing process line and upgrade the productivity, quality control and efficiency</h3>
+		</div>
+	</section><!-- cd-section -->
+	
+	<section id="section1" class="cd-section">
+		<div class="container">
+			<div class="section-title"><b>OVERVIEW</b></div>
+			<div class="head"><b>About the Project</b></div>
+			<div class="text"><p>The Pioneer Machinery is a professional manufacturing company for electric cable machinery based in Taipei. In this project, I worked as a UI/UX Design Intern with the Research and Development Team at Pioneer Machinery where I was responsible for designing engaging answers for the Smart Factory program. The time span of the project was 6 months, I mainly focused on designing the interactive interface for the smart factory. Besides, I also designed the mechanical structure that attached smart glasses to a helmet. The outcomes of our design included an interactive map and the portable HMI that could overview the whole process line and a real-time surveillance system for advisors.</p></div>
+		</div>
+	</section>
+	
+	<section class="mid-container">
+		<div class="section-title"><b>THE CHALLENGE</b></div>
+		<div class="text"><p>Based on establishing a network between production lines and access controlled application, create a visual performance data reporting system to reduce the overall administrative burdens for process line workers and advisors.</p></div>
+	</section>
+	
+	<section id="section2" class="cd-section">
+		<div class="container">
+			<div class="section-title"><b>USER RESEARCH</b></div>
+			<div class="head"><b>Focus Group</b></div>
+			<div class="text"><p>This project involves many stakeholders with diverse backgrounds, including the directors, advisors, engineers, process line workers and so. Even though they all worked in cable-related industries, their perspectives are different. We should consider various perspectives. We conducted the focus group to find their perspectives and needs. We also had a meeting with CIO and software engineers to understand what techniques could support our design.</p></div>
+		</div>
+		<div class="sub-container">
+			<div class="col-m-6">
+				<div class="textbox"><h1>Discussion themes</h1><p>1. The condition, context and scenarios of use</p><p>2. The interface used in production line now</p><p>3. The expectation of new user interface</p><p>4. What kind of technology could support</p></div>
+			</div>
+			<div class="col-m-6">
+				<div class="textbox">
+					<h1>Question script</h1><p>1. How do you feel about the interface you used now<br>2. Do the information architect meet expectation<br>3. What are the pros and cons<br>4. What information you read often<br>5. What challenge you face with</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="section3" class="mid-container2">
+		<div class="container">
+			<div class="section-title"><b>RESEARCH INSIGHT</b></div>
+			<div class="head"><b>Issue Found</b></div>
+		</div>
+		<div class="col-m-12 col-6">
+			<div class="s-container">
+				<p>1.  Too many context to read</p>
+			</div>
+			<div class="s-container">
+				<p>2.  Lack of visual data to help advisors quickly understanding</p>
+			</div>
+			<div class="s-container">
+				<p>3. Time consuming in changing page and the information is duplicated</p>
+			</div>
+			<div class="s-container">
+				<p>4. The hardware only support single touch</p>
+			</div>
+			<div class="s-container">
+				<p>5. The important information needs to be kept tracking</p>
+			</div>
+		</div>
+		<div class="col-m-12 col-6">
+			<div class="s-container">
+			<img src="images/smartfactory.png" width="80%"/>
+			</div>
+		</div>
+	</section>
+	
+	<section class="container">
+		<div class="cd-section">
+			<div class="section-title"><b>DESIGN SPACE</b></div>
+			<div class="head"><b>The Conponents of Smart Factory</b></div>
+			<div class="text"><p>Basically, in the smart factory project, we mainly have four systems. One is an interactive map that could overview the process line data in the control room. One is a portable HMI that provides advisors producing process information anytime and anywhere.  One is an HMI stands in the factory which allows workers to control the machine. The other is an augmented reality glasses that workers can scan the QR code attached to the machine to check the realtime data so that they don’t need to walk up and down in the factory.  My role is focused on designing the interface of portable HMI and interactive map and the mechanical of glasses.</p></div>
+		</div>
+		<div class="big-picbox">
+			<img src="images/smartfactory2.png">
+		</div>
+	</section>
+	
+	<section id="section4" class="mid-container2">
+		<div class="container">
+			<div class="section-title"><b>DESIGN</b></div>
+			<div class="head"><b>Design Goals</b></div>
+			<div class="text"><p>1. Present data deviations to the user quickly and clearly, show current resources and display their status.</p><p>2. A right visual representation for the data to reduce complexity.</p><p>3. Follow clear and consistent naming conventions and avoid information duplication.</p><p>4. Priority the data and avoid wasting time on page changing.</p><p>5. The layout should be based on the technique</p></div>
+		</div>
+	</section>
+	
+	<section id="section5" class="container">
+		<div class="cd-section">
+			<div class="section-title"><b>PORTABLE HMI</b></div>
+			<div class="head"><b>Information Architecture</b></div>
+			<div class="text"><p>Based on the feedback from the focus group and the evaluation of the previous user interface, I understand the priority of different information. I considered the total production of one order as important information, I designed it as a repetition shown in each page. Here is the information architecture that I created for the portable HMI:</p></div>
+		</div>
+		<div class="big-picbox">
+			<img src="images/pioneer-ia.png">
+		</div>
+	</section>
+	
+	<section id="section6" class="mid-container3">
+		<div class="container">
+			<div class="section-title"><b>PORTABLE HMI</b></div>
+			<div class="head"><b>Wireframe</b></div>
+		</div>
+		<div class="col-m-12">	
+			<img src="images/pioneer-wireframe-07.png">
+		</div>
+	</section>
+	
+	<section id="section7" class="container">
+		<div class="cd-section">
+			<div class="section-title"><b>PORTABLE HMI</b></div>
+			<div class="head"><b>High-Fidelity Design</b></div>
+		</div>
+		<div class="big-picbox">
+			<img src="images/pioneer-highfi-all-07.png">
+		</div>
+		<div class="sub-bigbox">
+			<div class="col-8"><img src="images/pioneer-hifhfi1-03.png"></div>
+			<div class="col-4">
+				<div class="title"><b>1. Home page</b></div>
+				<div class="content"><p>The user is factory advisors, we focus on visualizing production progress information. The home page provides an overview of all production lines. As the emergency is always the first thing in the factory, I designed the status of the production line in the navigation bar.</p></div>
+			</div>
+		</div>
+		<div class="sub-bigbox">
+			<div class="col-4">
+				<div class="title"><b>2. Production page</b></div>
+				<div class="content"><p>In the cable production process, temperature, machine speed, and other factors will affect the yield. Therefore, tracking the current status and target status is important. We present both the default value and the current value in the interface. In the production speed, we use visualization instead of the text reading to display the speed deviation.</p></div>
+			</div>
+			<div class="col-8"><img src="images/pioneer-highfi2-03.png"></div>
+		</div>
+		<div class="sub-bigbox">
+			<div class="col-8"><img src="images/pioneer-highfi3-03.png"></div>
+			<div class="col-4">
+				<div class="title"><b>3. Statistic page</b></div>
+				<div class="content"><p>The statistic page shows the speed, torque and power consumption of motors. In availability, we use colors that are the same used in navigation bar to indicate the status of production lines. It is more intuitive than text.</p></div>
+			</div>
+		</div>
+		<div class="sub-bigbox">
+			<div class="col-4">
+				<div class="title"><b>4. TC information page</b></div>
+				<div class="content"><p>There are several zones in the extruder to melt the plastic pellets when it passing. Control the temperature well and the excluder will not be clogged by plastic pellets. The tolerance value of the temperature was five degrees. We design a chart to present the compare of default temperature and current value. Besides, the color also shows the situation of temperature deviation. Green is that the temperature is within the safe zone. Red is that the temperature is higher than the default and out of the safe zone. Blue is that the temperature is lower than the default and out of the safe zone.</p></div>
+			</div>
+			<div class="col-8"><img src="images/pioneer-highfi4-03.png"></div>
+		</div>
+		<div class="sub-bigbox">
+			<div class="col-8"><img src="images/pioneer-highfi5-03.png"></div>
+			<div class="col-4">
+				<div class="title"><b>5. History page</b></div>
+				<div class="content"><p>The history page shows the production line history. Although it's common to use the slider to view the data list, our hardware could only support single-touch and the slider action could not be triggered. We design the history list being ten rows per page and with a click, the history list will change to the next ten rows to reduce the process of repetitive clicking.</p></div>
+			</div>
+		</div>
+	</section>
+	
+		<section id="section8" class="container">
+		<div class="cd-section">
+			<div class="section-title"><b>INTERACTIVE MAP</b></div>
+			<div class="head"><b>3D Prototype</b></div>
+			<div class="text"><p>The interactive map is designed for engineers who stay in the control room. Through the map, the engineer can view all production lines in the factory and their status. With a click of each production line, there is the basic information of the production. Due to the fact that I joined the interactive map development team when my intern was drawing to the close, I only designed the initial overlook of the user interface. In this term, I focus on designing the interface which meets the technology that engineers could support instead of designing intuitive and user-centered interface.</p></div>
+		</div>
+		<div class="big-picbox">
+			<img src="images/factory-video.gif">
+		</div>
+		<div class="cd-section2">
+		<div class="pic-container">
+			<div class="col-m-6"><img src="images/pioneer-map-final1.png"></div>
+			<div class="col-m-6"><img src="images/pioneer-map-final2.png"></div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="container">
+		<div class="cd-section">
+			<div class="section-title"><b>INTERACTIVE MAP</b></div>
+			<div class="head"><b>Icons Design</b></div>
+		</div>
+		<div class="small-picbox">
+			<img src="images/factory-icon1-06.png">
+		</div>
+	</section>
+	
+	<section class="cd-section">
+		<div class="container">
+			<div class="section-title"><b>INTERACTIVE MAP</b></div>
+			<div class="head"><b>Explore Different Layouts</b></div>
+		</div>
+		<div class="sub-container">
+			<div class="col-m-6">
+				<div class="pic"><img src="images/pioneer-map-v1-02.png"></div>
+				<div class="textbox"><h1>Version 1</h1><p>Version 1 was built by D3 js, and there are visualization data on it. With one click of machine, the basic information will slide out from the left.</p></div>
+			</div>
+			<div class="col-m-6">
+				<div class="pic"><img src="images/pioneer-map-v3-02.png"></div>
+				<div class="textbox"><h1>Version 2</h1><p>Version 2 was built by Charts js. We only showed important information on top. And the view of the map will not be divided by the information.</p></div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="container">
+		<div class="cd-section">
+			<div class="section-title"><b>INTERACTIVE MAP</b></div>
+			<div class="head"><b>Final Layouts</b></div>
+		</div>
+		<div class="big-picbox">
+			<img src="images/pioneer-map.png">
+		</div>
+	</section>
+	
+	<footer>
+  <div class="copyright">Copyright © 2019 Chia-Ying Liao</div>
+  <div class="social-media">
+    <a href="https://www.linkedin.com/in/chia-ying-liao-a94849172" target="_blank"><img src="images/linkedin.png" alt=""></a>
+	<a href="mailto:mailto:npc90039@gmail.com"><img src="images/email.png" alt=""></a>
+    <a href="https://dribbble.com/npc90039" target="_blank"><img src="images/dribble.png" alt=""></a>
+  </div>
+</footer>
+
+	
+	
+<!--<script src="js/jquery-2.1.1.js"></script>	-->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/main.js"></script><!-- Resource jQuery -->
+</body>
+</html>

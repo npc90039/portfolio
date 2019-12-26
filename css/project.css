@@ -121,6 +121,13 @@ cover{
     text-align: center;
 }
 
+#tainan{
+	background: url(../images/tainan-banner-02.png);
+	background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
 .cover h1{
 	font-size: 56px;
 	color: white;
@@ -200,7 +207,9 @@ cover{
 	font-style: italic;
 }
 
-
+.container .cd-section .text strong{
+	color:#508C90;
+}
 
 .pic-container, .sub-bigbox{
 	display: inline-block;
@@ -388,9 +397,13 @@ padding-bottom: 40px;
 	margin: auto;
 }
 
-.big-picbox img, .big-picbox2 img{
+.big-picbox img, .big-picbox2 img, .b-picbox img{
 	width: 100%;
 	padding-top: 20px;
+}
+
+.b-picbox{
+	padding-top: 24px;
 }
 
 .pic{

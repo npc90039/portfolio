@@ -662,11 +662,23 @@ footer {
   background: rgba(96, 190, 189, 0.9);
 }
 
-/*
-.project .project-pic #museum .pic-hover-content {
+.project .project-pic #robot{
+  background: rgba(232, 224, 217, 0.9);
+}
+
+.project .project-pic #inalley{
+  background: rgba(141, 165, 178, 0.9);
+}
+
+
+.project .project-pic #robot .pic-hover-content {
   color: #292929;
 }
-*/
+
+.project .project-pic #inalley .pic-hover-content {
+  color: #292929;
+}
+
 
 
 
